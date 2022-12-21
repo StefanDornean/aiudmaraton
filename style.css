@@ -1,0 +1,31 @@
+.main-background{
+    width: 100%;
+    height: auto;
+    min-height: 680px;
+    background: url('./images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.text-white{
+    color: #EBEBD2;
+}
+
+.main-padding{
+    padding-left: 140px; 
+    padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+    .main-padding{
+        padding-left: 20px; 
+        padding-top: 20px;
+    }
+
+    .text-white{
+        color: #EBEBD2;
+        size: 11px;
+    }
+  }
