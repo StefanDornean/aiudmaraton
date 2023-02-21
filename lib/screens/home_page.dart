@@ -46,10 +46,10 @@ class _HomePageState extends State<HomePage> {
       extendBodyBehindAppBar: true,
       appBar: ResponsiveWidget.isSmallScreen(context)
           ? AppBar(
-              backgroundColor: Color(0xFF347C4C),
+              backgroundColor: Color(0x7f9bae),
               elevation: 0,
               title: Image.asset(
-                'assets/images/logo.png',
+                'assets\\images\\aiud\\logo-complet.png',
                 height: 40,
               ),
               centerTitle: true,
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 child: Center(
                   child: Text(
-                    'Îți oferim condiții excelente de cazare, îți recomandăm cei mai ospitalieri localnici, cele mai gustoase preparate pescărești și diverse modalități personalizate de petrecere a timpului liber, toate pentru a te ajuta să trăiești farmecul de altădată al acestui oraș unic în lume.',
+                    'RUN RUN RUN',
                     style: TextStyle(
                       fontSize:
                           ResponsiveWidget.isSmallScreen(context) ? 11 : 25,
@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 25),
             Container(
               child: Image.asset(
-                'assets/images/background.jpg',
+                'assets/images/aiud/bg.jpg',
                 fit: BoxFit.cover,
               ),
             ),

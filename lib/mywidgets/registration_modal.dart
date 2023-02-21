@@ -58,6 +58,20 @@ class _RegistrationModalState extends State<RegistrationModal> {
           //   },
           //   child: Text('Register'),
           // ),
+          InkWell(
+              splashColor: Colors.transparent,
+              hoverColor: Colors.transparent,
+              onHover: (value) {},
+              onTap: () {},
+              child: Text(
+                'Trimite',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 24,
+                  fontFamily: 'Montserrat',
+                  fontWeight: FontWeight.bold,
+                ),
+              )),
         ],
       ),
     );

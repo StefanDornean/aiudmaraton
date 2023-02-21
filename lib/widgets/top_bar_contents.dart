@@ -28,20 +28,16 @@ class _TopBarContentsState extends State<TopBarContents> {
     return PreferredSize(
       preferredSize: Size(screenSize.width, 1000),
       child: Container(
-        color: Color(0xFF347C4C),
+        color: Color(0xf2ece6),
         child: Padding(
           padding: EdgeInsets.all(10),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(width: 25),
-              Image.asset(
-                'assets/images/logo.png',
-                height: 40,
-              ),
               Expanded(
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     InkWell(
                       onHover: (value) {
@@ -193,6 +189,16 @@ class _TopBarContentsState extends State<TopBarContents> {
                   ],
                 ),
               ),
+              InkWell(
+                  child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    'assets/images/aiud/logo-complet.png',
+                    height: 40,
+                  )
+                ],
+              ))
             ],
           ),
         ),
