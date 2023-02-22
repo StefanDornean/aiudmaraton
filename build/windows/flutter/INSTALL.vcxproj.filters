@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ioana\source\gitrepos\aiudmaraton\build\windows\CMakeFiles\50eb72bee0d987b0ea33d82a20a246f5\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E00E09F6-F635-370F-9B11-6FABCF792777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

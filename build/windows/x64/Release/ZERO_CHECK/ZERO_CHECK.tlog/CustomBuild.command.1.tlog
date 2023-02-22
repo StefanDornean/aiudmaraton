@@ -1,0 +1,10 @@
+^C:\USERS\IOANA\SOURCE\GITREPOS\AIUDMARATON\BUILD\WINDOWS\CMAKEFILES\04327B1E8A969F3EDAC813C14BCA65C2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ioana/source/gitrepos/aiudmaraton/windows -BC:/Users/ioana/source/gitrepos/aiudmaraton/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ioana/source/gitrepos/aiudmaraton/build/windows/amestec_web_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^C:\USERS\IOANA\SOURCE\GITREPOS\AIUDMARATON\BUILD\WINDOWS\CMAKEFILES\11CB7550C056FB1E51A527F5C881F218\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\ioana\source\gitrepos\aiudmaraton FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\ioana\source\gitrepos\aiudmaraton\windows\flutter\ephemeral PROJECT_DIR=C:\Users\ioana\source\gitrepos\aiudmaraton FLUTTER_TARGET=C:\Users\ioana\source\gitrepos\aiudmaraton\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\ioana\source\gitrepos\aiudmaraton\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IOANA\SOURCE\GITREPOS\AIUDMARATON\BUILD\WINDOWS\CMAKEFILES\50EB72BEE0D987B0EA33D82A20A246F5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\IOANA\SOURCE\GITREPOS\AIUDMARATON\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ioana/source/gitrepos/aiudmaraton/windows -BC:/Users/ioana/source/gitrepos/aiudmaraton/build/windows --check-stamp-file C:/Users/ioana/source/gitrepos/aiudmaraton/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
