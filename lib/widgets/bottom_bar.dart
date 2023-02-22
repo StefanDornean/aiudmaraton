@@ -22,12 +22,7 @@ class BottomBar extends StatelessWidget {
                 SizedBox(height: 20),
                 InfoText(
                   type: 'Email',
-                  text: 'info@greencoffeehouse.ro',
-                ),
-                SizedBox(height: 5),
-                InfoText(
-                  type: 'Telefon',
-                  text: '+40 751 111 230',
+                  text: 'aiudmaraton@gmail.com',
                 ),
                 SizedBox(height: 20),
                 Divider(
@@ -35,7 +30,7 @@ class BottomBar extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Copyright © 2020 | GreenCoffeeHouse',
+                  'Copyright © 2020 | AiudMaraton',
                   style: TextStyle(
                     color: Colors.blueGrey.shade300,
                     fontSize: 14,
@@ -59,13 +54,9 @@ class BottomBar extends StatelessWidget {
                       children: [
                         InfoText(
                           type: 'Email',
-                          text: 'info@greencoffeehouse.ro',
+                          text: 'aiudmaraton@gmail.com',
                         ),
-                        SizedBox(height: 5),
-                        InfoText(
-                          type: 'Telefon',
-                          text: '+40 751 111 230',
-                        )
+                        SizedBox(height: 5)
                       ],
                     ),
                   ],
@@ -75,7 +66,7 @@ class BottomBar extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Copyright © 2020 | GreenCoffeHouse',
+                  'Copyright © 2020 | AiudMaraton',
                   style: TextStyle(
                     color: Colors.blueGrey.shade300,
                     fontSize: 14,

@@ -19,7 +19,7 @@ class DestinationHeading extends StatelessWidget {
             ),
             width: screenSize.width,
             child: Text(
-              'Activitati',
+              'Spotivi',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
@@ -35,7 +35,7 @@ class DestinationHeading extends StatelessWidget {
             ),
             width: screenSize.width,
             child: Text(
-              'Activitati',
+              'Sportivi',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 40,
