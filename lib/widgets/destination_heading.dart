@@ -19,10 +19,10 @@ class DestinationHeading extends StatelessWidget {
             ),
             width: screenSize.width,
             child: Text(
-              'Spotivi',
+              'Sportivi',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 20,
                 fontFamily: 'Montserrat',
                 fontWeight: FontWeight.bold,
               ),

@@ -1,3 +1,4 @@
+import 'package:explore/mywidgets/registration_modal.dart';
 import 'package:explore/widgets/responsive.dart';
 import 'package:flutter/material.dart';
 
@@ -29,8 +30,10 @@ class _TopBarContentsState extends State<TopBarContents> {
     return PreferredSize(
       preferredSize: Size(screenSize.width, 1000),
       child: Container(
-        //color: Color(0xFF7F9BAE),
-        color: Color(0xFF7F9BAE).withOpacity(widget.opacity),
+        decoration: BoxDecoration(
+          //borderRadius: BorderRadius.circular(20),
+          color: Color(0xFF7F9BAE).withOpacity(widget.opacity),
+        ),
         child: Padding(
           padding: EdgeInsets.all(10),
           child: Row(
@@ -55,7 +58,7 @@ class _TopBarContentsState extends State<TopBarContents> {
                         children: [
                           SizedBox(height: 10),
                           Text(
-                            'Home',
+                            'Acasa',
                             style: TextStyle(
                               color: _isHovering[0]
                                   ? Colors.blue.shade200
@@ -92,7 +95,7 @@ class _TopBarContentsState extends State<TopBarContents> {
                         children: [
                           SizedBox(height: 10),
                           Text(
-                            'About Us',
+                            'Despre',
                             style: TextStyle(
                               color: _isHovering[1]
                                   ? Colors.blue.shade200
@@ -129,7 +132,7 @@ class _TopBarContentsState extends State<TopBarContents> {
                         children: [
                           SizedBox(height: 10),
                           Text(
-                            'Services',
+                            'Trasee',
                             style: TextStyle(
                               color: _isHovering[2]
                                   ? Colors.blue.shade200
@@ -210,13 +213,20 @@ class _TopBarContentsState extends State<TopBarContents> {
                   ),
                   child: InkWell(
                     onHover: (value) {},
-                    onTap: () {},
+                    onTap: () {
+                      // showDialog(
+                      //   context: context,
+                      //   builder: (BuildContext context) {
+                      //     return RegistrationModal();
+                      //   },
+                      // );
+                    },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         SizedBox(height: 10),
                         Text(
-                          '  Contactează-ne  ',
+                          '  Înscrie-te  ',
                           style: TextStyle(
                             fontSize: 14,
                             fontFamily: 'Arial',

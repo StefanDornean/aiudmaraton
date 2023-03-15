@@ -144,27 +144,6 @@ class _HomePageState extends State<HomePage> {
                   color: Color(0xFF7F9BAE),
                 ),
                 child: DestinationCarousel()),
-            // Container(
-            //     decoration: BoxDecoration(
-            //       borderRadius: BorderRadius.circular(5),
-            //       color: Color(0xFF7F9BAE),
-            //     ),
-            //     child: GridPage()),
-            // Column(
-            //   children: [
-            //     //FloatingQuickAccessBar(screenSize: screenSize),
-            //     Container(
-            //       child: Column(
-            //         children: [
-            //           // FeaturedHeading(
-            //           //   screenSize: screenSize,
-            //           // ),
-            //           // FeaturedTiles(screenSize: screenSize)
-            //         ],
-            //       ),
-            //     ),
-            //   ],
-            // ),
             SizedBox(height: screenSize.height / 10),
             BottomBar(),
           ],
